@@ -1,0 +1,24 @@
+# Google Voice 分流规则
+# 更新时间：2025-10-25
+# 适用于 Clash / Surge / Quantumult X 等代理工具
+
+# Google Voice 核心服务
+DOMAIN-SUFFIX,googlevoice.com
+DOMAIN-SUFFIX,voice.google.com
+
+# 相关客户端 API
+DOMAIN-SUFFIX,clients6.google.com
+DOMAIN-SUFFIX,clients4.google.com
+DOMAIN-SUFFIX,apis.google.com
+DOMAIN-SUFFIX,googleapis.com
+
+# 验证与资源加载
+DOMAIN-SUFFIX,accounts.google.com
+DOMAIN-SUFFIX,ssl.gstatic.com
+DOMAIN-SUFFIX,gstatic.com
+DOMAIN-SUFFIX,lh3.googleusercontent.com
+
+# 辅助识别与登录
+DOMAIN-KEYWORD,googlevoice
+
+# End of list
