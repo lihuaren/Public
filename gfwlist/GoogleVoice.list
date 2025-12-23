@@ -1,4 +1,7 @@
 # Google Voice 分流规则
+# 更新时间：2025-12-23
+# 适用于 Clash / Surge / Quantumult X 等代理工具
+
 # 核心域名
 DOMAIN,voice.google.com
 
