@@ -1,0 +1,10 @@
+# Google Voice 分流规则
+# 核心域名
+DOMAIN,voice.google.com
+
+# 通话语音流/信令 (关键)
+DOMAIN-SUFFIX,voice.telephony.goog
+
+# 辅助连接 (STUN/TURN)
+DOMAIN-PREFIX,voice-setup
+DOMAIN-KEYWORD,google-voice
