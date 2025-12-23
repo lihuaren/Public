@@ -2,26 +2,21 @@
 # 更新时间：2025-12-22
 # 适用于 Clash / Surge / Quantumult X 等代理工具
 
-# === 核心主域名 ===
+# 核心主域名
 DOMAIN-SUFFIX,htx.com
 DOMAIN-SUFFIX,htx.co
-DOMAIN-SUFFIX,hbfile.net     # 图片资源核心，必加
-      
-# === 日志中发现的特殊国别域名 (API/OTC数据) ===
-# 这些域名负责行情(hdm)、交易(otc-api)和移动端服务(m)
-DOMAIN-SUFFIX,htx.com.bz     # 伯利兹
-DOMAIN-SUFFIX,htx.com.gr     # 希腊
-DOMAIN-SUFFIX,htx.com.gt     # 危地马拉
-DOMAIN-SUFFIX,htx.com.lv     # 拉脱维亚
-DOMAIN-SUFFIX,htx.com.nf     # 诺福克岛 (常见备用)
-DOMAIN-SUFFIX,htx.com.pe     # 秘鲁 (常见备用)
-DOMAIN-SUFFIX,htx.com.vn     # 越南 (常见备用)
-      
-# === 旧品牌 Huobi 兼容 ===
+DOMAIN-SUFFIX,hbfile.net
+
+# 特殊国别域名
+DOMAIN-SUFFIX,htx.com.bz
+DOMAIN-SUFFIX,htx.com.gr
+DOMAIN-SUFFIX,htx.com.gt
+DOMAIN-SUFFIX,htx.com.lv
+DOMAIN-SUFFIX,htx.com.nf
+DOMAIN-SUFFIX,htx.com.pe
+DOMAIN-SUFFIX,htx.com.vn
+
+# 旧品牌
 DOMAIN-SUFFIX,huobi.com
 DOMAIN-SUFFIX,huobi.pro
 DOMAIN-SUFFIX,huobiglobal.com
-      
-# === 备用兜底策略 (可选) ===
-# 如果上面还不够，用关键词匹配，但可能会有极小概率误伤
-# - DOMAIN-KEYWORD,htx
