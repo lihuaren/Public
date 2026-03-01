@@ -1,0 +1,18 @@
+# > TMDB (The Movie Database) - 核心数据与海报
+DOMAIN-SUFFIX,themoviedb.org
+DOMAIN-SUFFIX,tmdb.org
+DOMAIN-SUFFIX,themoviedb.network
+
+# > TVDB (TheTVDB) - 剧集主要数据源
+DOMAIN-SUFFIX,thetvdb.com
+DOMAIN-SUFFIX,tvdb.com
+
+# > Fanart - 高清封面、Logo、背景图
+DOMAIN-SUFFIX,fanart.tv
+
+# > IMDB & OMDB 
+DOMAIN-SUFFIX,imdb.com
+DOMAIN-SUFFIX,omdbapi.com
+
+# > Trakt (观影记录同步)
+DOMAIN-SUFFIX,trakt.tv
