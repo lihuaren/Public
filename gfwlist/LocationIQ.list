@@ -1,10 +1,3 @@
-payload:
-  # LocationIQ 主域名
-  - DOMAIN-SUFFIX,locationiq.com
-  - DOMAIN-SUFFIX,unwiredmaps.com
-  - DOMAIN-SUFFIX,unwiredlabs.com
-  
-  # 如果需要更精确的控制，可以添加具体的域名（可选，上面已经包含了后缀匹配）
-  # - DOMAIN,api.locationiq.com
-  # - DOMAIN,tiles.locationiq.com
-  # - DOMAIN,us1.locationiq.com
+DOMAIN-SUFFIX,locationiq.com
+DOMAIN-SUFFIX,unwiredmaps.com
+DOMAIN-SUFFIX,unwiredlabs.com
