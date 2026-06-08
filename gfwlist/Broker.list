@@ -12,6 +12,9 @@ DOMAIN-SUFFIX,futufin.com
 DOMAIN-SUFFIX,futuhkapp.com
 DOMAIN-SUFFIX,moomoo.com
 
+# 富途牛牛 直连IP (腾讯云)
+IP-CIDR,124.156.124.214/32,no-resolve
+
 # === 老虎证券 (Tiger Brokers) ===
 DOMAIN-SUFFIX,itiger.com
 DOMAIN-SUFFIX,tigerbrokers.com
