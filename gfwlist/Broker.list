@@ -30,3 +30,9 @@ DOMAIN-SUFFIX,longbridge.sg
 DOMAIN-SUFFIX,longbridge.global
 DOMAIN-SUFFIX,longbridgeapp.com
 DOMAIN-SUFFIX,longbridge-inc.com
+
+# 终极防漏网：只要域名包含这些关键词，全部强制分流
+DOMAIN-KEYWORD,futu
+DOMAIN-KEYWORD,tiger
+DOMAIN-KEYWORD,skytigris
+DOMAIN-KEYWORD,longbridge
