@@ -1,0 +1,26 @@
+# 证券交易平台分流规则
+# 适用平台：富途牛牛、老虎证券、长桥证券
+
+# === 富途牛牛 (Futu & Moomoo) ===
+DOMAIN-SUFFIX,futunn.com
+DOMAIN-SUFFIX,futu5.com
+DOMAIN-SUFFIX,futuhk.com
+DOMAIN-SUFFIX,fututrade.com
+DOMAIN-SUFFIX,futuholdings.com
+DOMAIN-SUFFIX,futu.com
+DOMAIN-SUFFIX,moomoo.com
+
+# === 老虎证券 (Tiger Brokers) ===
+DOMAIN-SUFFIX,itiger.com
+DOMAIN-SUFFIX,tigerbrokers.com
+DOMAIN-SUFFIX,tigerbrokers.com.sg
+DOMAIN-SUFFIX,tigersecurities.com
+DOMAIN-SUFFIX,tigerfintech.com
+DOMAIN-SUFFIX,tradeup.com
+
+# === 长桥证券 (Longbridge) ===
+DOMAIN-SUFFIX,longbridge.hk
+DOMAIN-SUFFIX,longbridge.sg
+DOMAIN-SUFFIX,longbridge.global
+DOMAIN-SUFFIX,longbridgeapp.com
+DOMAIN-SUFFIX,longbridge-inc.com
