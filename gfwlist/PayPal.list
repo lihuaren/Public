@@ -1,0 +1,23 @@
+# PayPal 分流规则
+# 包含主营业务、CDN 资源及旗下支付网关
+
+# === 核心域名 ===
+DOMAIN-SUFFIX,paypal.com
+DOMAIN-SUFFIX,paypal.me
+
+# === 静态资源与 CDN (核心，缺失会导致网页白屏或无样式) ===
+DOMAIN-SUFFIX,paypalobjects.com
+
+# === 旗下 Braintree 支付网关 (很多网站调用它来完成 PayPal 扣款) ===
+DOMAIN-SUFFIX,braintree-api.com
+DOMAIN-SUFFIX,braintreegateway.com
+DOMAIN-SUFFIX,braintreepayments.com
+
+# === 通讯与辅助服务 ===
+DOMAIN-SUFFIX,paypal-communication.com
+DOMAIN-SUFFIX,paypal-corp.com
+DOMAIN-SUFFIX,paypal-mktg.com
+DOMAIN-SUFFIX,xoom.com
+
+# === 关键词兜底 (防漏网之鱼) ===
+DOMAIN-KEYWORD,paypal
