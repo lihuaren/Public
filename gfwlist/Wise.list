@@ -1,0 +1,12 @@
+# Wise (TransferWise) 分流规则
+# 包含新主域和旧版遗留 API 域名
+
+# === 新品牌域名 ===
+DOMAIN-SUFFIX,wise.com
+
+# === 旧品牌域名 (许多底层网关和邮件服务仍在使用) ===
+DOMAIN-SUFFIX,transferwise.com
+DOMAIN-SUFFIX,tw.com
+
+# === 关键词兜底 ===
+DOMAIN-KEYWORD,transferwise
