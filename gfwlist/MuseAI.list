@@ -1,0 +1,5 @@
+# Muse AI 分流规则
+# 包含视频平台及相关 API 节点
+
+DOMAIN-SUFFIX,muse.ai
+DOMAIN-KEYWORD,muse.ai
